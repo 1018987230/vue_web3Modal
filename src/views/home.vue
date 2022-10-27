@@ -6,27 +6,22 @@
 
 				<div
 					style="border-radius: 55px;width: 100%; height: auto;background-color: rgb(16, 58, 105);position:relative; margin-top: 5%;text-align: center;">
-									
-					
-						<div style="display:block;text-align: center;">
-
-							<el-button class="_cardBtn" type="primary" @click="connect">
-								<p class="_cardFont">Connect</p>
-							</el-button>
-							<el-button type="primary" class="_cardBtn" @click="mint">
-								<p class="_cardFont">Mint</p>
-							</el-button>
-							<el-button type="primary" class="_cardBtn" @click="resetApp">
-								<p class="_cardFont">reset</p>
-							</el-button>
-							
+						
+					<div style="display:block;text-align: center;">
+						<el-button class="_cardBtn" type="primary" @click="connect">
+							<p class="_cardFont">Connect</p>
+						</el-button>
+						<el-button type="primary" class="_cardBtn" @click="mint">
+							<p class="_cardFont">Mint</p>
+						</el-button>
+						<el-button type="primary" class="_cardBtn" @click="resetApp">
+							<p class="_cardFont">reset</p>
+						</el-button>
 					</div>
 				</div>
 			</el-main>
 		</el-container>
 	</div>
-	
-
 </template> 
 
 <script >

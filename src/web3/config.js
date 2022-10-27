@@ -6,7 +6,7 @@ const providerOptions = {
   walletconnect: {
     package: WalletConnect,
     options: {
-      infuraId: "a42befff87544ff684b5246140f9a8e7" // required
+      infuraId: "a42befff87544ff684b5246140f9a8e7" //（个人私有）https://infura.io/zh 自己注册
     }
   },
   coinbasewallet: {
