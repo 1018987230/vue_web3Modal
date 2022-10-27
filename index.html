@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/5.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xxxxxxx</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script> -->
+  <script>window.global = window;</script>
+  <script src="//unpkg.com/vue@next"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.6.5/dist/umd/index.min.js"></script>
+
+  <script type="module">
+    // 添加一下内容，并添加这些依赖项browserify-zlib, events, process, stream-browserify,util可以解决web3 无法使用
+    import process from "process";
+    import { Buffer } from "buffer";
+    import EventEmitter from "events";
+
+    window.Buffer = Buffer;
+    window.process = process;
+    window.EventEmitter = EventEmitter;
+  </script>
+
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>window.global = window;</script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
